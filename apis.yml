@@ -1,8 +1,14 @@
 aid: imperfectfoods
-name: Imperfectfoods
-description: 'Imperfectfoods is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+name: Imperfect Foods
+description: 'Imperfect Foods is a consumer grocery delivery service focused on reducing
+  food waste. It sources surplus, cosmetically imperfect, and excess-inventory food
+  — produce that is too large or small, packaging overstock, near best-by-date items,
+  and manufacturing byproducts — and delivers them to members at a discount through
+  a weekly, customizable grocery order of produce, meat, seafood, dairy, pantry staples,
+  and snacks. Imperfect Foods was acquired by Misfits Market in 2022 and now operates
+  as part of that company; its consumer web and mobile apps remain live. No public
+  developer API, OpenAPI, or documentation surface was found during enrichment — this
+  profile is maintained as a company identity record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/imperfectfoods/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://img-cdn.misfitsmarket.com/melodious-taiyaki-9pkr2z/Z6ZBTJbqstJ9-YD7_Meta_Image_IF.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Grocery
+- Food Delivery
+- Sustainability
+- Food Waste
+- E-Commerce
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://imperfectfoods.com
+  url: https://www.imperfectfoods.com
+- type: Blog
+  url: https://blog.imperfectfoods.com/
+- type: Support
+  url: https://help.imperfectfoods.com/
+- type: PrivacyPolicy
+  url: https://www.imperfectfoods.com/privacy
+- type: TermsOfService
+  url: https://www.imperfectfoods.com/terms-and-conditions
+- type: SignUp
+  url: https://www.imperfectfoods.com/join
+- type: Login
+  url: https://www.imperfectfoods.com/login
+- type: DomainSecurity
+  url: security/imperfectfoods-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

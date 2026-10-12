@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/imperfectfoods/integrations
+- https://zapier.com/apps/imperfect-foods/integrations
+- https://n8n.io/integrations/imperfectfoods/
+- https://composio.dev/toolkits/imperfectfoods
+- https://monid.ai/tools/imperfectfoods
+checked:
+- https://composio.dev/toolkits/imperfectfoods
+- https://monid.ai/tools/imperfectfoods
+- https://n8n.io/integrations/imperfectfoods/
+- https://zapier.com/apps/imperfect-foods/integrations
+- https://zapier.com/apps/imperfectfoods/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
